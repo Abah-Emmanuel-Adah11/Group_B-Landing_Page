@@ -5,7 +5,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Amazon-cloned Landing Page</title>
-	<link rel="stylesheet" href="/Group_B-Landing_Page/css/style.css">		
+	<!-- css link -->
+	<link rel="stylesheet" href="/Group_B-Landing_Page/css/style.css">
+	<!-- icon link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	
 </head>
 <body>
 	<header>
@@ -15,16 +19,27 @@
 				<img src="/Group_B-Landing_Page/images/amazon-logo.png" alt="">
 			</div>
 			<div class="deliver">
-				<h5>Deliver to <br><span>Nigeria</span></h5>
+				<i class="fas fa-map-marker-alt" style="padding-top: 12px;"></i>
+				<h5 style="font-size: 12px;"><span style="font-size: 7px; color: #a8a4a4;">Deliver to</span> <br>Nigeria</h5>
 			</div>
 			<div class="search-bar">
-				<form action="">
-					<label for="search">All</label>
-					<input type="text" id="search" name="search" placeholder="Search Amazon">
+				<form action="#">
+					<select name="" id="">
+						<option value="">All</option>
+						<option value="">2</option>
+					</select>
+					<input type="text" id="search" name="search" placeholder="Search Amazon" >
+					<i class="fas fa-search"></i>
+
 				</form>
 			</div>
 			<div class="flag">
 				<!-- amarican flag +EN here -->
+				<!-- <i class="fas fa-flag-usa"></i> -->
+				<img src="/Group_B-Landing_Page/images/us flag.png" alt="flag" style="width: 9px; height: 10px;">
+				<!-- <p style="font-size: 10px; font-weight: bold;">EN</p> -->
+				<select name="" id="">
+				<option value="english">EN</option></select>
 			</div>
 			<div class="hello-sign-in">
 				<h5>Hello, sign in <br><span>Account & Lists</span></h5>
@@ -33,13 +48,17 @@
 				<h5>Returns <br><span>& Orders</span></h5>
 			</div>
 			<div class="cart">
-				
+				<i class="fas fa-shopping-cart"></i>
+				<p>Cart</p>
 			</div>
 		</div>
 		<!-- navbar  -->
 		<nav class="navbar">
 			<ul>
-				<li><a href="#">All</a></li>
+				<div style="display: flex; gap: 2px;">
+					<i class="fas fa-bars"></i>
+					<li><a href="#">All</a></li>
+				</div>
 				<li><a href="#">Today's Deals</a></li>
 				<li><a href="#">Customer Service</a></li>
 				<li><a href="#">Registry</a></li>
@@ -49,7 +68,7 @@
 		</nav>
 	</header>
 	<figure class="mom-smile">
-		<img src="/Group_B-Landing_Page/images/mom smile.jpg" alt="">
+		<img src="/Group_B-Landing_Page/images/mom smile.jpg" alt="slide image">
 	</figure>
 	<div class="first-collection">
 		<div>
