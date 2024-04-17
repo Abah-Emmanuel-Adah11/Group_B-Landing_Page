@@ -1,0 +1,71 @@
+
+*{
+	color: aliceblue;
+	margin: 0;
+	list-style: none;
+}
+.head-container{
+	height: 10vh;
+	background-color: #120606;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.logo{
+	background-color: black;
+	height: 50px;
+}
+.logo img{
+	height: 100%;
+	width:100%;
+}
+.deliver{
+	padding: 10px;
+}
+.deliver:hover{
+	border-color: aqua;
+}
+
+form input{
+	border-style: none;
+	border-radius: 2px;
+	border-color: aliceblue;
+	width: 40vw;
+	height: 4vh;
+	margin-left: 0;
+}
+.search-bar label{
+	color: grey;
+	background-color: #e2dcd5;
+	margin-right: 0;
+}
+/* *******navbar */
+.navbar ul{
+	font-size: 10px;
+	height: 8vh;
+	background-color: #1e1f2f;
+	display: flex;
+	gap: 12px;
+	align-items: center;
+}
+.mom-smile img{
+	width: 100%;
+}
+.first-collection{
+	display: flex;
+	gap: 10px;
+	margin: 15px;
+	position: relative;
+	top: -175px;
+}
+
+.first-collection img{
+	padding: 10px;
+	width: 25vw;
+}
+.destop{
+	background-color: white;
+}
+.toy{
+	background-color: white;
+}
