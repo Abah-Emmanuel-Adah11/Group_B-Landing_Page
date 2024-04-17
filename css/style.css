@@ -4,13 +4,18 @@
 	margin: 0;
 	list-style: none;
 	text-decoration: none;
+	font-family: 'Nunito', sans-serif;
+}
+body{
+	background-color: #dcecf4c9;
+	
 }
 .head-container{
 	height: 10vh;
 	background-color: #120606;
 	display: flex;
 	align-items: center;
-	gap: 10px;
+	gap: 15px;
 }
 .head-container div:hover{
 	border: solid 1px white;
@@ -67,13 +72,7 @@ form select{
 	border: none;
 	margin: 0;
 }
-.returns{
-	margin-right: 0;
-	font-size: 9px;
-}
-.returns span{
-	font-size: 12px;
-}
+
 .cart{
 	display: flex;
 }
@@ -101,6 +100,7 @@ form select{
 .mom-smile img{
 	width: 100%;
 }
+/* items collection */
 .first-collection{
 	display: flex;
 	gap: 10px;
@@ -111,7 +111,25 @@ form select{
 
 .first-collection img{
 	padding: 10px;
-	width: 25vw;
+	width: 20vw;
+}
+.destop{
+	background-color: white;
+}
+.toy{
+	background-color: white;
+}
+
+.third-collection{
+	display: flex;
+	/* gap: 10px; */
+	margin: 15px;
+	
+}
+
+.third-collection img{
+	padding: 10px;
+	width: 20vw;
 }
 .destop{
 	background-color: white;
