@@ -58,7 +58,7 @@ form select{
 	border-bottom-right-radius: 3px;
 	width: 25px;
 	text-align: center;
-	padding-top: 5px;
+	padding-top: 8px;
 }
 .search-bar label{
 	color: grey;
@@ -69,6 +69,7 @@ form select{
 	display: flex;
 }
 .flag select{
+	color: #ffff;
 	background-color: black;
 	border: none;
 	margin: 0;
@@ -93,6 +94,9 @@ form select{
 	gap: 12px;
 	align-items: center;
 	padding-left: 17px;
+}
+.navbar a{
+	color: #ffff;
 }
 .navbar ul li a:hover{
 	border: solid 1px white;
