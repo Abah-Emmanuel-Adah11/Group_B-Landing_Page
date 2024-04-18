@@ -1,6 +1,6 @@
 
 *{
-	color: aliceblue;
+	/* color: aliceblue; */
 	margin: 0;
 	list-style: none;
 	text-decoration: none;
@@ -11,6 +11,7 @@ body{
 	
 }
 .head-container{
+	color: #ffff;
 	height: 10vh;
 	background-color: #120606;
 	display: flex;
@@ -136,4 +137,37 @@ form select{
 }
 .toy{
 	background-color: white;
+}
+
+/* footer */
+footer{
+	font-size: 10px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+footer button{
+	width: 160px;
+	background-color: #e9d23c;
+	border-radius: 5px;
+	border: #ddb437 solid 1px;
+}
+footer a:hover{
+	color: #97216a;
+}
+
+/* back to top */
+hr{
+	color: #b5b1b1ba;
+	border: solid .1px;
+}
+.back-to-top a{
+	margin-top: 10px;
+	font-size: 8px;
+	background-color: #464863;
+	height: 7vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
