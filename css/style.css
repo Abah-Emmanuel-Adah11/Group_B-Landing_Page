@@ -91,28 +91,68 @@ form select{
 	border: solid 1px white;
 	padding: 5px;
 }
-.mom-smile img{
-	width: 100%;
+/* sliders */
+
+.slider {
+	overflow: hidden;
 }
-/* items collection */
-.first-collection{
+
+.slides {
 	display: flex;
-	gap: 10px;
+	animation: slide 5s infinite;
+}
+
+.slides img {
+	width: 100%;
+	height: auto;
+	transition: transform 5s ease;
+}
+
+@keyframes slide {
+	0% {
+	transform: translateX(0%);
+	}
+	33.33% {
+	transform: translateX(-100%);
+	}
+	66.67% {
+	transform: translateX(-200%);
+	}
+	100% {
+	transform: translateX(0%);
+	}
+}
+
+/* ******first collection */
+/* items collection */
+
+
+.first-collection{
+	background-color: #b04141;
+	/* display: flex; */
+	/* gap: 10px; */
 	margin: 15px;
 	position: relative;
 	top: -175px;
 }
 
-.first-collection img{
-	padding: 10px;
-	width: 20vw;
+.first-item{
+	background-color: #ddb437;
+	height: 90px;
 }
-.destop{
+
+/* .first-collection{
+	height: 50px;
+	background-color: #fff;
+	padding: 20px;
+	width: 20vw; */
+/* } */
+/* .destop{
 	background-color: white;
 }
 .toy{
 	background-color: white;
-}
+} */ */ */
 
 .third-collection{
 	display: flex;
