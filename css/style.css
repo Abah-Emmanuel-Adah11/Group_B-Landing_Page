@@ -1,43 +1,36 @@
 
 *{
-	/* color: aliceblue; */
+	font-size: 15px;
 	margin: 0;
 	list-style: none;
 	text-decoration: none;
 	font-family: 'Nunito', sans-serif;
 }
-body{
-	/* background-color: #dcecf4c9; */
-}
 .head-container{
 	color: #ffff;
-	height: 10vh;
+	height: 7vh;
 	background-color: #120606;
 	display: flex;
 	align-items: center;
-	gap: 15px;
+	gap: 25px;
 }
 .head-container div:hover{
 	border: solid 1px white;
 	padding: 5px;
 }
 .logo img{
-	height: 10.7vh;
+	height: 7.7vh;
 	width:100%;
 }
 .deliver{
 	display: flex;
 	gap: 2px;
 }
-.deliver:hover{
-	border-color: aqua;
-}
-
 form input{
 	color: #1e1f2f;
 	border-style: none;
 	border-color: aliceblue;
-	width: 40vw;
+	width: 55vw;
 	height: 5.5vh;
 }
 form select{
@@ -46,7 +39,7 @@ form select{
 	border-color: #d1cccc;
 	color: grey;
 	background-color: #d1cccc;
-	height: 6vh;
+	height: 5.8vh;
 }
 .search-bar form{
 	display: flex;
@@ -55,15 +48,11 @@ form select{
 	background-color: #f49f55;
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
-	width: 25px;
+	width: 35px;
 	text-align: center;
-	padding-top: 8px;
+	padding-top: 15px;
 }
-.search-bar label{
-	color: grey;
-	background-color: #e2dcd5;
-	margin-right: 0;
-}
+
 .flag{
 	display: flex;
 }
@@ -78,11 +67,12 @@ form select{
 	display: flex;
 }
 .cart i{
-	font-size: 17px;
+	font-size: 25px;
 }
 .cart p{
 	padding-top: 8px;
 	font-size: smaller;
+	margin-right: 5px;
 }
 /* *******navbar */
 .navbar ul{
@@ -151,10 +141,11 @@ footer{
 }
 
 footer button{
-	width: 160px;
+	width: 18vw;
 	background-color: #e9d23c;
-	border-radius: 5px;
-	border: #ddb437 solid 1px;
+	border-radius: 3px;
+	border: #ddb437 solid 1.5px;
+	padding: 3px;
 }
 footer a:hover{
 	color: #97216a;
@@ -167,7 +158,6 @@ hr{
 }
 .back-to-top a{
 	margin-top: 10px;
-	font-size: 8px;
 	background-color: #464863;
 	height: 7vh;
 	display: flex;
@@ -183,72 +173,53 @@ hr{
 	color: #ffff;
 	display: flex;
 	justify-content: center;
-	padding: 20px 50px;
-	font-size: 8px;
+	gap: 40px;
+	padding: 50px 30px;
 }
 .section-1 a{
-	color: #d2c8c8;
-	line-height: 15px;
+	color: #ddd7d7;
+	line-height: 25px;
+	font-size: 16px;
 }
 
 /* footer second section */
 
 .section-2{
 	font-size: 8px;
-	margin-top: 10px;
+	margin-top: 30px;
 	display: flex;
 	justify-content: center;
 	gap: 8px
 	;
 }
 .section-2 img{
-	margin-right: 30px;
-	height: 25px;
+	height: 50px;
 	width:5%;
-	border: ;
+	border-radius: 4px;
 }
 
 .us-flag{
 	color: grey;
 	padding: 0 8px;
 	border: solid 1px grey;
-	border-radius: 2px;
+	border-radius: 3px;
 	display: flex;
-	justify-content: start;
+	gap: 8px;
 }
 .us-flag img{
-	margin-top: 5px;
-	padding: 0 8px;
+	margin-top: 10px;
 	height: 3vh;
 	width: 2vw;
 }
 .section-2 form{
 	padding: 0 8px;
 	border: solid 1px grey;
-	border-radius: 2px;
+	border-radius: 3px;
+	width: 8vw;
 }
 .us-dollar{
-	font-size: 10px;
+	font-size: 12px;
 	padding: 0 8px;
 	border: solid 1px grey;
-	border-radius: 2px;
+	border-radius: 3px;
 }
-
-.rating {
-	display: flex;
-  }
-  
-  .rating input[type="radio"] {
-	display: none;
-  }
-  
-  .rating label {
-	font-size: 24px;
-	cursor: pointer;
-  }
-  
-  .rating input[type="radio"]:checked ~ label:before {
-	content: '★';
-	color: gold;
-  }
-  
