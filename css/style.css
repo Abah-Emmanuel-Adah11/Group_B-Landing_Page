@@ -352,3 +352,36 @@ hr{
 	border: solid 1px grey;
 	border-radius: 3px;
 }
+
+/* third footer section */
+
+.section-3 {
+	background-color: #120606;
+	color: #e3e4e9;
+	display: flex;
+	justify-content: center;
+	/* text-align: center; */
+}
+.section-3 a{
+	color: #e3e4e9;
+}
+/* .sign {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 100px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.right {
+	background-color: blue;
+	color: white;
+}
+
+.wrong {
+	background-color: white;
+	color: blue;
+}
