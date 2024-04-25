@@ -356,15 +356,72 @@ hr{
 /* third footer section */
 
 .section-3 {
-	background-color: #120606;
-	color: #e3e4e9;
-	display: flex;
-	justify-content: center;
-	/* text-align: center; */
+	background-color: #262424;
+	margin-top: 50px;
 }
 .section-3 a{
 	color: #e3e4e9;
+	font-size: 12px;
 }
+.section-3 a:hover{
+	text-decoration: underline;
+}
+
+.section-3 ul li{
+	line-height: 1em;
+}
+
+.line-1 ul{
+	display: flex;
+	gap: 50px;
+	justify-content: space-around;
+	padding-top: 40px;
+	margin-left: 13rem;
+	margin-right: 13rem;
+}
+
+.line-2 ul{
+	display: flex;
+	gap: 50px;
+	justify-content: space-around;
+	padding-top: 15px;
+	margin-left: 13rem;
+	margin-right: 13rem;
+}
+
+.line-3 ul{
+	display: flex;
+	gap: 30px;
+	justify-content: space-around;
+	padding-top: 15px;
+	margin-left: 12rem;
+	margin-right: 13rem;
+}
+
+.line-4 ul{
+	display: flex;
+	gap: 30px;
+	justify-content: space-between;
+	margin-top: 2rem;
+	margin-left: 25rem;
+	margin-right: 25rem;
+}
+
+.last-footer ul{
+	padding-top: 3rem;
+	background-color: #262424;
+	color: #e3e4e9;
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	gap: 30px;
+}
+
+.last-footer ul a{
+	color: #e3e4e9;
+}
+
+
 /* .sign {
 	display: inline-block;
 	width: 100px;
@@ -374,14 +431,33 @@ hr{
 	line-height: 100px;
 	font-size: 24px;
 	font-weight: bold;
+} */
+
+.choices{
+	background-color: blue;
 }
 
 .right {
+	/* padding: 2px; */
 	background-color: blue;
 	color: white;
+	border-color: blue;
+	/* border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%; */
 }
 
 .wrong {
+	/* padding: 2px; */
 	background-color: white;
 	color: blue;
+	border-color: blue;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
+.copyright{
+	text-align: center;
+	color: #d3d4da;
+	background-color: #262424;
+	padding-bottom: 30px;
 }
